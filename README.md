@@ -1,12 +1,12 @@
 # SPOTIFIX
 
-sexier version of spotify
+### Sexier version of spotify
 
 Data structures project(sem 3)
 
-music player web application(frontend only)
+### music player web application(frontend only)
 
-FEATURES:
+### FEATURES:
 
  Make your own playlist by inserting new songs from the given albums 
  
@@ -18,7 +18,7 @@ FEATURES:
  
  Standard music player controls
  
-STACK used:
+### STACK used:
 
       HTML
       
