@@ -1,0 +1,48 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>stack player</title>
+    <link rel="stylesheet" href="auto.css">
+    <!-- <link rel="stylesheet" href="stack.css"> -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+     crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <style>
+/* body {
+  background-image: url('bg4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} */
+</style>
+    <div id="bg">
+        <div id="blackLayer"></div>
+        <img src="animals.jpg"/>
+    </div>
+
+    <div id="main">
+        <div id="image">
+            <img src="animals.jpg" width="350px" height="300px">
+        </div>
+        <div id="player">
+            <div id="songTitle">Demo</div>
+            <div id="buttons">
+                <button id="pre" onclick="pre()"><img src="Pre.png" height="90%" width="90%"/></button>
+                <button id="play" onclick="control()"><img src="Pause.png"/></button>
+                <button id="mnext" onclick="stackplay()"><img src="Next.png" height="90%" width="90%"/></button>
+            </div>
+
+            <div id="seek-bar">
+                <div id="fill"></div>
+                <div id="handle"></div>
+            </div>
+        </div>
+    </div>
+  </body>
+   <!-- <script type="module" src="spot.js"></script> -->
+   <script src="spot.js" charset="utf-8"></script>
+   <!-- <script src="auto.js" charset="utf-8"></script> -->
+   <script src="stack.js" charset="utf-8"></script>
+</html>

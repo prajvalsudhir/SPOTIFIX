@@ -1,0 +1,135 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    padding: 20px;
+    background-color:#101210;
+    /* border-bottom: 1px solid rgb(190, 176, 176); */
+    display: flex;
+    font-family: sans-serif;
+
+}
+
+h1{
+  margin: auto;
+  font-size: 50px;
+  color: white;
+}
+
+
+#bg{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+#bg img{
+    height: 120vh;
+    width: 105%;
+    -webkit-filter:blur(20px);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+#blackLayer{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    z-index: 99;
+}
+#main{
+    width: 27%;
+    background-color:#fff;
+    border-radius: 15px;
+    position: absolute;
+    top:60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+#image img{
+    height: 300px;
+    width: 100%;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#player{
+    padding: 35px;
+    background-color:rgba(21, 23, 26, 1);
+}
+#songTitle{
+    width:300px;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+    position: absolute;
+    top:70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#buttons{
+    height: 50px;
+    width: 100%;
+    margin-top: 50px;
+    position:relative;
+    top:10%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+}
+#seek-bar{
+    width: 275px;
+    height: 5px;
+    background-color:gray;
+    display: flex;
+    border-radius: 50px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+#fill{
+    height: 5px;
+    background-color:#56e000;
+    border-radius: 20px;
+}
+#handle{
+    width: 8px;
+    height: 8px;
+    background-color:#56e000;
+    border-radius: 50%;
+    margin-left: -5px;
+    transform: scale(2);
+}
+#mnext{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    background-color:rgba(21, 23, 26, 1);
+    border-radius: 50%;
+}
+#pre{
+    width: 40px;
+    height: 40px;
+    background-color:rgba(21, 23, 26, 1);
+    border-radius: 50%;
+    margin-right: 30px;
+
+}
+#play{
+  width: 60px;
+  height: 60px;
+  background-color:rgba(21, 23, 26, 1);
+  border-radius: 50%;
+  }
+
+#play img{
+  width: 35px;
+  height: 35px;
+
+}
