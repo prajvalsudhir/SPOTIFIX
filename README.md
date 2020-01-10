@@ -25,3 +25,8 @@ Data structures project(sem 3)
       CSS
       
       JAVASCRIPT with DOM and JQUERY
+
+
+playlist.html is the main page.
+
+use inspect->console to check the DS opertions
