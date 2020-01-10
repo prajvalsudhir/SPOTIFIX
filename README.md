@@ -8,15 +8,15 @@ Data structures project(sem 3)
 
 ### FEATURES:
 
- Make your own playlist by inserting new songs from the given albums 
+* Make your own playlist by inserting new songs from the given albums 
  
- Autoplay implementation
+* Autoplay implementation
  
- Circular queue player
+* Circular queue player
  
- Recently played songs accessible
+* Recently played songs accessible
  
- Standard music player controls
+* Standard music player controls
  
 ### STACK used:
 
@@ -27,6 +27,6 @@ Data structures project(sem 3)
       JAVASCRIPT with DOM and JQUERY
 
 
-playlist.html is the main page.
+**playlist.html is the main page**
 
-use inspect->console to check the DS opertions
+**use inspect->console to check the DS opertions**
