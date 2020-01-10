@@ -31,3 +31,10 @@
 **playlist.html is the main page**
 
 **use inspect->console to check the DS opertions**
+
+screenshots:
+![spot](https://raw.githubusercontent.com/prajvalsudhir/SPOTIFIX/master/SPOTIFIX/images/playlist%20-%20Google%20Chrome%2010-01-2020%2014_17_42.png)
+
+![spot](https://raw.githubusercontent.com/prajvalsudhir/SPOTIFIX/master/SPOTIFIX/images/playlist%20-%20Google%20Chrome%2010-01-2020%2014_20_46.png)
+
+![spot](https://raw.githubusercontent.com/prajvalsudhir/SPOTIFIX/master/SPOTIFIX/images/playlist%20-%20Google%20Chrome%2010-01-2020%2014_24_49.png)
