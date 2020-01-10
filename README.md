@@ -1,4 +1,5 @@
 # SPOTIFIX
+[spot Logo](https://raw.githubusercontent.com/prajvalsudhir/SPOTIFIX/master/SPOTIFIX/images/stack%20player%20-%20Google%20Chrome%2014-11-2019%2002_03_33%20(2).png)
 
 ### Sexier version of spotify
 
